@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "scripts": {
+    "lint-fix": "prettier --write .",
+    "test": "node --test",
+    "typecheck": "tsc -b --pretty"
+  },
+  "volta": {
+    "node": "22.14.0",
+    "yarn": "4.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "prettier": "^3.5.0",
+    "typescript": "^5.7.3"
+  }
+}
